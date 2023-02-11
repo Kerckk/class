@@ -50,9 +50,9 @@ moto.repair()
 bus.year_of_Bus(2014)
 car.start()
 car.stop()
-car.year_of_car(2021)
-car.type_of_car("BMW")
-car.cvet_of_car("orange")
+car.year_of_car(2012)
+car.type_of_car("LADA")
+car.cvet_of_car("Green")
 
 
 
