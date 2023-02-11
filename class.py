@@ -30,10 +30,6 @@ class Bus(Car):
 class Moto(Bus):
     def __init__(self,color='blue', type='Yamaha', year="2008",weight="105"):
         super().__init__(color, type, year,weight)
-        self.color = color
-        self.type = type
-        self.year = year
-        self.weight = weight
     def parking(self):
         print('Мотоцикл припоркавался')
     def refueled(self):
